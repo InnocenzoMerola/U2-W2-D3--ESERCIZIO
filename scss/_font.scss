@@ -1,0 +1,12 @@
+$font-default: Arial, Helvetica, sans-serif;
+
+$sm-font: 10px;
+$md-font: 14px;
+$lg-font: 25px;
+$xl-font: 30px;
+$xxl-font: 70px;
+
+@mixin title-big {
+  font-size: $xxl-font;
+  font-weight: bold;
+}

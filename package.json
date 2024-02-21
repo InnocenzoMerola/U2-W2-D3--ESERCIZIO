@@ -1,0 +1,11 @@
+{
+  "name": "y2-w2-d3--esercizio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "content": "sass scss/style.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

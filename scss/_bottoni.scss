@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  padding: $default-p;
+  margin: 4px;
+  cursor: pointer;
+  transition: transform 0.4s;
+  border-radius: 15px;
+}
+
+$btn-color: (
+  first: $btFirst-color,
+  second: $btSecond-color,
+  third: $btThird-color,
+);
+
+@each $c, $valore in $btn-color {
+  .btn-#{$c} {
+    color: $text-color;
+    background-color: $valore;
+  }
+}

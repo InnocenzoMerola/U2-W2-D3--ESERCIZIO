@@ -1,0 +1,11 @@
+@mixin floating($rad: 15px, $shadow: 0 15px 20px black, $bord: 1px solid lightgrey) {
+  border-radius: $rad;
+  box-shadow: $shadow;
+  border: $bord;
+}
+
+@mixin grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

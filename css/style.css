@@ -1,0 +1,292 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+.pi-sm {
+  padding-inline: 10px;
+}
+
+.pbl-sm {
+  padding-block: 10px;
+}
+
+.pi-normal {
+  padding-inline: 15px;
+}
+
+.pbl-normal {
+  padding-block: 15px;
+}
+
+.pi-md {
+  padding-inline: 20px;
+}
+
+.pbl-md {
+  padding-block: 20px;
+}
+
+.pi-lg {
+  padding-inline: 40px;
+}
+
+.pbl-lg {
+  padding-block: 40px;
+}
+
+.pi-xl {
+  padding-inline: 55px;
+}
+
+.pbl-xl {
+  padding-block: 55px;
+}
+
+.pi-xxl {
+  padding-inline: 100px;
+}
+
+.pbl-xxl {
+  padding-block: 100px;
+}
+
+.mi-sm {
+  margin-inline: 10px;
+}
+
+.mbl-sm {
+  margin-block: 10px;
+}
+
+.mi-normal {
+  margin-inline: 15px;
+}
+
+.mbl-normal {
+  margin-block: 15px;
+}
+
+.mi-md {
+  margin-inline: 20px;
+}
+
+.mbl-md {
+  margin-block: 20px;
+}
+
+.mi-lg {
+  margin-inline: 40px;
+}
+
+.mbl-lg {
+  margin-block: 40px;
+}
+
+.mi-xl {
+  margin-inline: 55px;
+}
+
+.mbl-xl {
+  margin-block: 55px;
+}
+
+.mi-xxl {
+  margin-inline: 100px;
+}
+
+.mbl-xxl {
+  margin-block: 100px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px;
+  margin: 4px;
+  cursor: pointer;
+  transition: transform 0.4s;
+  border-radius: 15px;
+}
+
+.btn-first {
+  color: #f4f4f4;
+  background-color: #0e6cff;
+}
+
+.btn-second {
+  color: #f4f4f4;
+  background-color: #ff8700;
+}
+
+.btn-third {
+  color: #f4f4f4;
+  background-color: #4caf50;
+}
+
+.principal {
+  background-color: #640fc5;
+}
+.principal nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.principal nav div {
+  display: flex;
+}
+.principal nav a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.principal nav img {
+  width: 50px;
+}
+.principal-description {
+  display: flex;
+  justify-content: center;
+}
+.principal-description h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.principal-description h2 {
+  font-size: 25px;
+}
+.principal-description p {
+  font-size: 14px;
+}
+main {
+  position: relative;
+}
+main .quattroXlinea {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+$default-p: 15px;
+$default-m: 0 auto;
+
+$misure: (
+  sm: 10,
+  normal: 15,
+  md: 20,
+  lg: 40,
+  xl: 55,
+  xxl: 100,
+);
+
+@each $m, $valore in $misure {
+  .pi-#{$m} {
+    padding-inline: $valore + px;
+  }
+  .pbl-#{$m} {
+    padding-block: $valore + px;
+  }
+}
+
+@each $m, $valore in $misure {
+  .mi-#{$m} {
+    margin-inline: $valore + px;
+  }
+  .mbl-#{$m} {
+    margin-block: $valore + px;
+  }
+}

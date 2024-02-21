@@ -1,0 +1,58 @@
+@import "reset";
+@import "space";
+@import "mixins";
+@import "font";
+@import "colori";
+@import "bottoni";
+@import "animazioni";
+
+.principal {
+  background-color: $header-color;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      display: flex;
+    }
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+    img {
+      width: 50px;
+    }
+  }
+  &-description {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      @include title-big;
+    }
+    h2 {
+      font-size: $lg-font;
+    }
+    p {
+      font-size: $md-font;
+    }
+    .btn-first {
+    }
+    .btn-second {
+    }
+    .btn-third {
+    }
+    img {
+      @include floating(10px, 0 10px 30px black, 3px solid $header-color);
+    }
+  }
+}
+
+main {
+  position: relative;
+
+  .quattroXlinea {
+    @include grid;
+  }
+}
