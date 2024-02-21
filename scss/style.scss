@@ -11,7 +11,7 @@
 
   nav {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
     div {
       display: flex;
@@ -44,6 +44,7 @@
     }
     img {
       @include floating;
+      height: 260px;
     }
   }
 }

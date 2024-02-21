@@ -252,7 +252,6 @@ body {
 }
 .principal nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .principal nav div {
@@ -281,6 +280,7 @@ body {
   border-radius: 15px;
   box-shadow: 0 15px 20px black;
   border: 1px solid #818181;
+  height: 260px;
 }
 
 main {
