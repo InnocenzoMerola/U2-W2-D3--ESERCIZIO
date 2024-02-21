@@ -229,7 +229,6 @@ body {
   padding: 15px;
   margin: 4px;
   cursor: pointer;
-  transition: transform 0.4s;
   border-radius: 15px;
 }
 
@@ -264,7 +263,7 @@ body {
   text-decoration: none;
 }
 .principal nav img {
-  width: 50px;
+  width: 7%;
 }
 .principal-description {
   display: flex;
@@ -276,10 +275,14 @@ body {
 }
 .principal-description h2 {
   font-size: 25px;
+  color: #f4f4f4;
 }
-.principal-description p {
-  font-size: 14px;
+.principal-description img {
+  border-radius: 15px;
+  box-shadow: 0 15px 20px black;
+  border: 1px solid #818181;
 }
+
 main {
   position: relative;
 }
@@ -287,6 +290,11 @@ main .quattroXlinea {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+main img {
+  border-radius: 15px;
+  box-shadow: 0 7px 10px black;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

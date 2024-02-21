@@ -21,7 +21,7 @@
       text-decoration: none;
     }
     img {
-      width: 50px;
+      width: 7%;
     }
   }
   &-description {
@@ -33,10 +33,9 @@
     }
     h2 {
       font-size: $lg-font;
+      color: $text-color;
     }
-    p {
-      font-size: $md-font;
-    }
+
     .btn-first {
     }
     .btn-second {
@@ -44,7 +43,7 @@
     .btn-third {
     }
     img {
-      @include floating(10px, 0 10px 30px black, 3px solid $header-color);
+      @include floating;
     }
   }
 }
@@ -54,5 +53,8 @@ main {
 
   .quattroXlinea {
     @include grid;
+  }
+  img {
+    @include floating($shadow: 0 7px 10px black, $bord: none);
   }
 }
